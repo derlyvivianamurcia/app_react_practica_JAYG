@@ -2,14 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 import './styles/Global.css'
-import Insignia from './components/Insignia.jsx'
+import InsiginiaNueva from './pages/InsigniaNueva';
 
 
 
 const container = document.getElementById('root');
 
 ReactDOM.render(
-  <Insignia  firstName='Viviana' lastName='Murcia' twitter='@derlyvmurcia' avatar='https://s.gravatar.com/avatar/70caecc888cae6a3fb3858ff8fb8ff59?s=80'/>, 
+  <InsiginiaNueva />, 
   container
 )
 

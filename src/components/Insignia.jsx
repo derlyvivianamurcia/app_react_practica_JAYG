@@ -17,11 +17,11 @@ class Insignia extends React.Component{
                     <h1>{this.props.firstName}<br/> {this.props.lastName}</h1>
                 </div>
                 <div className='Insignia__section_info'>
-                    <h2>FrontEnd Enginner</h2>
+                    <h2>{this.props.ocupacion}</h2>
                     <div>{this.props.twitter}</div>
                 </div>
                 <div className= 'Insignia__footer'>
-                    POLITECNICO
+                Politécnico Colombiano Jaime Isaza Cadavid © 2020
                 </div>
             </div>
         )
