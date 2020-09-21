@@ -2,14 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 import './styles/Global.css'
-import InsiginiaNueva from './pages/InsigniaNueva';
+import Aplicacion from './components/Aplicacion';
 
 
 
 const container = document.getElementById('root');
 
 ReactDOM.render(
-  <InsiginiaNueva />, 
+  <Aplicacion />, 
   container
 )
 
