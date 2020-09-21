@@ -8,7 +8,7 @@ class InsigniaPages extends React.Component {
   render() {
     return (
       <div>
-        <Navbar />
+     
         <div className="Badges">
           <div className="Badges__hero">
             <div className="Badges__container">
